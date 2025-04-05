@@ -1,0 +1,1 @@
+úkol do Pythonu
