@@ -9,8 +9,8 @@ with open("alice.txt", mode = "r", encoding = "utf-8") as soubor:
         if znak not in slovnik:
             slovnik[znak] = 1
         else:
-            slovnik[znak] = slovnik[znak] + 1 #jakože vím, že profi vypadá +=, ale pro mě je to jako pro mozek špatně pochopitelné, a pak nechápu svůj vlastní kód :D 
-            #slovnik[znak] += 1
+            slovnik[znak] = slovnik[znak] + 1
+            #slovnik[znak] += 1 mám ale radši moje vypsání, lépe se v tom orientuji :)
 serazene = dict(sorted(slovnik.items()))
 
 with open("hw01_output.json", mode = "w", encoding = "utf-8") as soubor2:
